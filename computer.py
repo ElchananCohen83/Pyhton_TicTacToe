@@ -44,7 +44,7 @@ def checkcolumn_O(tictactoe:list):
                 if tictactoe[0][i] == '-':
                     tictactoe[0][i] = 'O'
                     return True
-            if tictactoe[0][i] != '-' and tictactoe[0][i] == tictactoe[2][i]:
+            if tictactoe[0][i] == 'O' and tictactoe[0][i] == tictactoe[2][i]:
                 if tictactoe[1][i] == '-':
                     tictactoe[1][i] = 'O'
                     return True
